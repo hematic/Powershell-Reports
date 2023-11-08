@@ -45,3 +45,26 @@ You can configure the HTML to change whatever the email that gets sent to the us
 This report will get the status of all Windows Defender installations against servers in the environment.
 
 Requires you to configure your OU paths in the Get-RegionalOSservers function.
+
+## Server Report
+
+This is a general purpose server report to gether detailed information on a Server.
+This generates an HTML report with the following information:
+
+- Disk Information
+- Solarwinds Service Information
+- Cisco Amp Service Information
+- CCM Service Information
+- SplunkForwarder Service Information
+- NTP Information
+- Remote Desktop Users
+- Local Admins
+- Local Users
+- Telnet Status
+- FTP Status
+- MECP Status
+- Max Event Log Sizes
+- Network Adapters
+- CPU Information
+- System Data
+- OS Data
